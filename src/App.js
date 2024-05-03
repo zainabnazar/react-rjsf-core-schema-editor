@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Form from '@rjsf/core';
+import validator from '@rjsf/validator-ajv8';
+
+const schema = require('./configs-schema.json')
+
+const uiSchema= {
+    "ui:options": {
+        "semantic": {
+          "fluid": true,
+          "inverted": false,
+          "errorOptions": {
+            "size": "small",
+            "pointing": "above"
+          }
+        }
+      }
+  };
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+        <Form schema={schema} validator={validator} uiSchema={uiSchema}>
+</Form>
+
   );
 }
 
