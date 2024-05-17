@@ -1,0 +1,1607 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "corePlayback": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "playbackStrategy": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "liveSupport": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "overrides": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "pauseOnExitSeek": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "playerSetting": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "forceBeginPlaybackToEndOfWindow": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "showLiveCurtain": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "disableMediaSourceUnload": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "legacySubtitles": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "cacheSeekableRange": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "disableSeekSentinel": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "mseDurationOverride": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "deferredPlayback": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            }
+          }
+        },
+        "syntheticStallEvents": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "ignoreReadyState": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            }
+          }
+        },
+        "mediaPlayer": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "iso2Incompatible": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "mseDurationOverride": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "sounds": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "sourceMap": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "broadcastTriggerVariant": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "streaming": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "mediaSelector": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "mediaSelectorURI": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "mediaSets": {
+              "additionalProperties": false,
+              "type": "object",
+              "description": "Needs to be updated by appropriate team",
+              "properties": {
+                "vod": {
+                  "additionalProperties": false,
+                  "type": "object",
+                  "description": "Needs to be updated by appropriate team",
+                  "properties": {
+                    "sd": {
+                      "type": "string",
+                      "description": "Needs to be updated by appropriate team"
+                    },
+                    "hd": {
+                      "type": "string",
+                      "description": "Needs to be updated by appropriate team"
+                    },
+                    "transferFormat": {
+                      "type": "string",
+                      "description": "Needs to be updated by appropriate team"
+                    }
+                  }
+                },
+                "live": {
+                  "additionalProperties": false,
+                  "type": "object",
+                  "description": "Needs to be updated by appropriate team",
+                  "properties": {
+                    "sd": {
+                      "type": "string",
+                      "description": "Needs to be updated by appropriate team"
+                    },
+                    "hd": {
+                      "type": "string",
+                      "description": "Needs to be updated by appropriate team"
+                    },
+                    "transferFormat": {
+                      "type": "string",
+                      "description": "Needs to be updated by appropriate team"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "video": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "mediaURIFormat": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "supported": {
+              "description": "Needs to be updated by appropriate team",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "protocols": {
+                    "description": "Needs to be updated by appropriate team",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "encodings": {
+                    "description": "Needs to be updated by appropriate team",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "transferFormat": {
+                    "description": "Needs to be updated by appropriate team",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "audio": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "mediaURIFormat": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "supported": {
+              "description": "Needs to be updated by appropriate team",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "protocols": {
+                    "description": "Needs to be updated by appropriate team",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "encodings": {
+                    "description": "Needs to be updated by appropriate team",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "transferFormat": {
+                    "description": "Needs to be updated by appropriate team",
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "overrides": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "forceBeginPlaybackToEndOfWindow": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            }
+          }
+        },
+        "live": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "liveSupported": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "liveRestartSupported": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            }
+          }
+        }
+      }
+    },
+    "displayQuality": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "supportsPromoLinks": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "disableRedirect": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "thumbnailSeekingSupport": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "msiPercentage": {
+      "type": "integer",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "featureToggles": {
+      "description": "Needs to be updated by appropriate team",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "capabilities": {
+      "description": "Needs to be updated by appropriate team",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pageStrategy": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "modules": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "base": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "modifiers": {
+          "description": "Needs to be updated by appropriate team",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "logging": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "level": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "capabilities": {
+          "description": "Needs to be updated by appropriate team",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "input": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "map": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "0": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "4": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "5": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "6": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "7": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "8": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "9": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "10": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "11": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "12": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "13": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "14": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "15": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "17": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "18": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "19": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "20": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "21": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "22": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "23": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "25": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "27": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "30": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "31": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "32": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "35": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "36": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "37": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "38": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "39": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "40": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "41": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "42": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "44": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "45": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "46": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "47": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "48": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "49": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "50": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "51": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "52": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "53": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "54": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "55": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "56": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "57": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "65": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "66": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "67": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "68": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "69": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "70": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "71": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "72": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "73": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "74": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "75": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "76": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "77": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "78": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "79": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "80": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "81": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "82": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "83": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "84": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "85": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "86": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "87": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "88": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "89": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "90": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "91": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "93": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "97": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "98": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "99": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "100": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "101": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "102": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "103": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "108": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "112": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "113": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "114": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "115": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "116": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "117": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "118": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "119": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "120": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "121": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "122": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "123": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "125": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "126": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "127": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "128": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "129": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "130": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "131": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "132": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "133": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "134": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "135": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "156": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "165": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "166": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "170": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "176": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "177": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "178": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "179": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "183": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "184": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "185": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "186": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "188": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "190": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "195": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "196": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "198": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "199": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "200": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "201": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "202": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "203": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "204": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "205": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "206": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "211": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "212": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "213": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "214": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "217": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "219": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "221": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "227": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "228": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "231": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "233": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "243": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "250": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "252": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "253": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "259": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "272": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "273": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "402": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "403": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "404": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "405": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "406": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "412": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "413": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "415": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "416": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "417": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "419": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "422": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "423": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "424": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "425": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "446": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "450": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "452": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "455": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "457": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "458": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "460": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "461": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "463": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "464": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "465": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "467": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "469": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "473": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "502": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "504": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "512": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "652": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "997": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "998": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "999": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "1008": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "1028": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "1545": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "1546": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "10009": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "10221": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "10225": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "10232": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "10233": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "10252": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "29443": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "29460": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "29461": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "39525": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "39780": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "40035": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "40290": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "40800": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "47175": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "47430": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "47685": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "48195": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "48705": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "57347": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "57396": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "57630": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "57856": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "57857": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "57885": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "58140": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "58650": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "59925": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "60180": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "60435": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "60690": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "60945": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "62220": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "62475": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "62730": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "62985": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "63240": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "63495": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "63750": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "64005": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "64260": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "64515": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777221": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777223": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777234": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777235": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777236": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777237": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777264": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777272": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777273": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777274": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            },
+            "16777275": {
+              "type": "string",
+              "description": "Needs to be updated by appropriate team"
+            }
+          }
+        }
+      }
+    },
+    "accessibility": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "captions": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "supported": {
+              "description": "Needs to be updated by appropriate team",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "layouts": {
+      "description": "Needs to be updated by appropriate team",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer",
+            "description": "Needs to be updated by appropriate team"
+          },
+          "height": {
+            "type": "integer",
+            "description": "Needs to be updated by appropriate team"
+          },
+          "module": {
+            "type": "string",
+            "description": "Needs to be updated by appropriate team"
+          },
+          "classes": {
+            "description": "Needs to be updated by appropriate team",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "networking": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "supportsJSONP": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "supportsCORS": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "broadcast": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "aitProfile": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "setChannelOnStopBroadcast": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "currentChannelValidation": {
+          "additionalProperties": false,
+          "type": "object",
+          "description": "Needs to be updated by appropriate team",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "description": "Needs to be updated by appropriate team"
+            }
+          }
+        }
+      }
+    },
+    "statLabels": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "deviceType": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "serviceType": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "osType": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "browserType": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "broadcastLaunchViaTextButton": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "supported": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "forcedMigration": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "shouldMigrateCookies": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "account": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "capabilities": {
+          "description": "Needs to be updated by appropriate team",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "css": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "doesNotSupportTransform2d": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "statReporters": {
+      "description": "Needs to be updated by appropriate team",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "disablePreroll": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "defaults": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "fps": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "duration": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "easing": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "showElementFade": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "hideElementFade": {
+          "type": "string",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "expectedCookieVersion": {
+      "type": "integer",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "disabledBackgroundHandler": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "pagination": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Needs to be updated by appropriate team",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        },
+        "betaModeOnly": {
+          "type": "boolean",
+          "description": "Needs to be updated by appropriate team"
+        }
+      }
+    },
+    "deviceHasOwnPGLock": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "ionProxyUrl": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "signInPromoPercentage": {
+      "type": "integer",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "corsSupported": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "mouseSupported": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "touchSupported": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "voiceSupported": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "gestureSupported": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "layoutZoomRequired": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "multiscreenSupported": {
+      "type": "string",
+      "description": "Needs to be updated by appropriate team"
+    },
+    "backExitFromDeeplink": {
+      "type": "boolean",
+      "description": "Needs to be updated by appropriate team"
+    }
+  }
+}
