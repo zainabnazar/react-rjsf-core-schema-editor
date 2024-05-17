@@ -17,7 +17,7 @@ console.log('Data in server',JSON.stringify(data))
     fs.mkdirSync(dataDir);
   }
 
-  fs.writeFileSync(path.join(dataDir, 'Result.json'), JSON.stringify(data, null, 2));
+  fs.writeFileSync(path.join(dataDir, 'resultConfig.json'), JSON.stringify(data, null, 2));
 
   res.send({ message: 'Data written to file successfully' });
 });

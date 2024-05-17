@@ -1,0 +1,29 @@
+{
+  "streaming": {
+    "video": {
+      "supported": []
+    },
+    "audio": {
+      "supported": []
+    }
+  },
+  "featureToggles": [],
+  "capabilities": [],
+  "modules": {
+    "modifiers": []
+  },
+  "logging": {
+    "capabilities": []
+  },
+  "accessibility": {
+    "captions": {
+      "supported": []
+    }
+  },
+  "layouts": [],
+  "account": {
+    "capabilities": []
+  },
+  "statReporters": [],
+  "backExitFromDeeplink": true
+}
