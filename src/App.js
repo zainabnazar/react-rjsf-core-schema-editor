@@ -8,6 +8,9 @@ const schema = require('./configs-schema.json')
 
 const uiSchema= {
     "ui:options": {
+      "addable": true,
+      "orderable": true,
+      "removable": true,
         "semantic": {
           "fluid": true,
           "inverted": false,
@@ -18,12 +21,12 @@ const uiSchema= {
         }
       }
   };
-  function onSubmit(response) {
-    const jsonData = (response.schema);
-    console.log('Data to send',jsonData)
-    axios.post('http://localhost:3001/api/writeFile',jsonData)
-      .then(jsonData => {
-        console.log(jsonData);
+  function onSubmit({ formData }) {
+
+    console.log('Data to send',formData )
+    axios.post('http://localhost:3001/api/writeFile',formData)
+      .then(formData => {
+        console.log(formData);
       })
       .catch(err => {
         console.error('Error writing to file:', err);
@@ -33,7 +36,7 @@ const uiSchema= {
 function App() {
   return (
   
-        <Form schema={schema} validator={validator} uiSchema={uiSchema}  onSubmit={response => onSubmit(response)}>
+        <Form schema={schema} validator={validator} uiSchema={uiSchema}  onSubmit={onSubmit}>
 </Form>
 
   );
