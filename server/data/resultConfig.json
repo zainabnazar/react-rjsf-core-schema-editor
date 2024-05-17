@@ -10,10 +10,12 @@
   "featureToggles": [],
   "capabilities": [],
   "modules": {
-    "modifiers": []
+    "modifiers": [],
+    "base": "dfghjk"
   },
   "logging": {
-    "capabilities": []
+    "capabilities": [],
+    "level": "ttyguhij"
   },
   "accessibility": {
     "captions": {
@@ -25,5 +27,26 @@
     "capabilities": []
   },
   "statReporters": [],
-  "backExitFromDeeplink": true
+  "corePlayback": {
+    "overrides": {
+      "forceBeginPlaybackToEndOfWindow": true,
+      "showLiveCurtain": true
+    },
+    "syntheticStallEvents": {
+      "enabled": true
+    },
+    "playbackStrategy": "test"
+  },
+  "input": {
+    "map": {
+      "6": "we iy4wei8u",
+      "70": "rtfyguhij"
+    }
+  },
+  "backExitFromDeeplink": true,
+  "pageStrategy": "yyguhijok",
+  "css": {
+    "doesNotSupportTransform2d": true
+  },
+  "disablePreroll": true
 }

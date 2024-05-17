@@ -3,7 +3,7 @@ import './App.css';
 import Form from '@rjsf/core';
 import validator from '@rjsf/validator-ajv8';
 import axios from 'axios';
-const schema = require('./configs-schema.json')
+const schema = require('./configs-schema.json');
 
 
 const uiSchema= {
@@ -35,9 +35,11 @@ const uiSchema= {
   
 function App() {
   return (
-  
+    <>
+  <div className='title'>Create a New Config </div>
         <Form schema={schema} validator={validator} uiSchema={uiSchema}  onSubmit={onSubmit}>
 </Form>
+</>
 
   );
 }
